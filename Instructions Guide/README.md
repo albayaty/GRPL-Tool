@@ -18,7 +18,7 @@ Fulbright Scholar, MSEE '14
 
 ==========================
 
-The Instructions.Guide file used the following language syntax in order to form the command structure for the GRPL Tool, as following: 
+	The Instructions.Guide file used the following language syntax in order to form the command structure for the GRPL Tool, as following: 
 
 	COMMAND   [OPTION]   [CONDITION]
 
@@ -45,7 +45,7 @@ The Instructions.Guide file used the following language syntax in order to form 
 	
 	The COMMAND should be mentioned first in the language syntax, then followed by OPTION and CONDITION, or vice versa.
 	
-	The ìinstructions.guideî is not a case-sensitive file.
+	The ‚Äúinstructions.guide‚Äù is not a case-sensitive file.
 
 ==========================
 	
