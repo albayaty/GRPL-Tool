@@ -17,3 +17,7 @@ University of New Haven
 Fulbright Scholar, MSEE '14
 
 ==========================
+
+RoboMind Simulator:		http://robomind.net/en/index.html
+
+==========================
