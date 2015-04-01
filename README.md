@@ -1,5 +1,6 @@
-# GRPL-Tool
-Graphical-Based Robotics Programming Language
+# Graphical-Based Robotics Programming Language
+
+GRPL-Tool
 
 MSEE student:    Ali M. Al-Bayaty
 
@@ -9,4 +10,5 @@ March 2014
 
 Version: 1.31
 
-#
+
+==========================
