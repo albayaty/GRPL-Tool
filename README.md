@@ -1,12 +1,14 @@
 # Graphical-Based Robotics Programming Language
 
-GRPL-Tool
+( The GRPL Tool )
 
 MSEE student:    Ali M. Al-Bayaty
 
 Thesis advisor:  Christopher Martinez, Ph.D.
 
-March 2014
+University of New Haven
+
+Fulbright Scholar, MSEE '14
 
 Version: 1.31
 
