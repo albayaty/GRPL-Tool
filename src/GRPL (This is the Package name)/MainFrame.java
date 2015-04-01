@@ -1,11 +1,31 @@
+// ============================================================================
+/**
+ * Copyright ©  2014  Ali M. Al-Bayaty
+ * 
+ * GRPL Tool is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * any later version.
+ * 
+ * GRPL Tool is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+// ============================================================================
 /**
  * Graphical-based Robotics Programming Language
  * ( MainFrame class: Controller-View )
  * @author  Ali M. Al-Bayaty
  * @vesion  1.31
  * @since   3/18/2013
- * LICENSE: GNU General Public License v3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+ * Personal website: <http://albayaty.github.io/>
+ * Source code link: <https://github.com/albayaty/GRPL-Tool.git>
  */
+// ============================================================================
 package GRPL;
 
 import java.awt.*;
@@ -317,7 +337,7 @@ public class MainFrame extends javax.swing.JFrame
                     );
 
                     setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
-                    setTitle("The GRPL Tool ...");
+                    setTitle("GRPL Tool ...");
                     setBounds(new java.awt.Rectangle(20, 20, 0, 0));
                     setName("frame1"); // NOI18N
                     setResizable(false);
@@ -2085,7 +2105,7 @@ public class MainFrame extends javax.swing.JFrame
 
                     Exit.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_X, java.awt.event.InputEvent.CTRL_MASK));
                     Exit.setText("Exit");
-                    Exit.setToolTipText("Quit the GRPL Tool ...");
+                    Exit.setToolTipText("Quit GRPL Tool ...");
                     Exit.addActionListener(new java.awt.event.ActionListener() {
                         public void actionPerformed(java.awt.event.ActionEvent evt) {
                             ExitActionPerformed(evt);
@@ -2154,7 +2174,7 @@ public class MainFrame extends javax.swing.JFrame
 
                     About.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_A, java.awt.event.InputEvent.CTRL_MASK));
                     About.setText("About");
-                    About.setToolTipText("");
+                    About.setToolTipText("About GRPL Tool & GPL v3");
                     About.addActionListener(new java.awt.event.ActionListener() {
                         public void actionPerformed(java.awt.event.ActionEvent evt) {
                             AboutActionPerformed(evt);
@@ -3833,11 +3853,14 @@ public class MainFrame extends javax.swing.JFrame
     }//GEN-LAST:event_redoActionActionPerformed
 // ============================================================================    
     private void AboutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AboutActionPerformed
-        String BODY = "\n(Graphical-Based Robotics Programming Language)\n"+
-                      "\nMSEE student:    Ali M. Al-Bayaty"+
-                      "\nThesis advisor:  Christopher Martinez, Ph.D.\n"+
-                      "\nMarch 2014"+
-                      "\nVersion: 1.31";
+        String BODY = "GRPL Tool  Copyright ©  2014  Ali M. Al-Bayaty\n"+
+                      "This program comes with ABSOLUTELY NO WARRANTY.\n"+
+                      "This is free software, and you are welcome to redistribute it\n"+
+                      "under the terms of the GNU General Public License v3.\n\n"+
+                      "(Graphical-Based Robotics Programming Language)\n"+
+                      "MSEE student:    Ali M. Al-Bayaty\n"+
+                      "Thesis advisor:  Christopher Martinez, Ph.D.\n"+                      
+                      "Version: 1.31";
         JOptionPane.showMessageDialog(this, BODY, "About", JOptionPane.INFORMATION_MESSAGE, 
                             new ImageIcon(getClass().getResource("ICONS/Logo/Logo1.jpg")));
     }//GEN-LAST:event_AboutActionPerformed
