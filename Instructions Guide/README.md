@@ -1,10 +1,10 @@
 # Graphical-Based Robotics Programming Language
 
-( The GRPL Tool / Instructions Guide )
+( GRPL Tool / Instructions Guide )
 
 Version: 1.31
 
-GNU GPLv3
+GNU GPL v3
 
 ==========================
 
