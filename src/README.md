@@ -1,10 +1,10 @@
 # Graphical-Based Robotics Programming Language
 
-( The GRPL Tool / Java Source Code / NetBeans IDE 7.2.1 )
+( GRPL Tool / Java Source Code / NetBeans IDE 7.2.1 )
 
 Version: 1.31
 
-GNU GPLv3
+GNU GPL v3
 
 ==========================
 
@@ -18,6 +18,6 @@ Fulbright Scholar, MSEE '14
 
 ==========================
 
-RoboMind Simulator:		http://robomind.net/en/index.html
+  RoboMind Simulator:		http://robomind.net/en/index.html
 
 ==========================
