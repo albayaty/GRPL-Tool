@@ -18,6 +18,6 @@ Fulbright Scholar, MSEE '14
 
 ==========================
 
-    RoboMind Simulator:		http://robomind.net/en/index.html
+    RoboMind Simulator:		<http://robomind.net/en/index.html>
 
 ==========================
